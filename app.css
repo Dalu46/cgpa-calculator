@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Montserrat:wght@100;600&family=Open+Sans:wght@600;800&family=Roboto+Mono:wght@100;900&display=swap');
+
+body {
+    background-image: linear-gradient(90deg, rgb(160, 222, 219),rgb(3, 165, 209));
+}
+
+.container {
+    margin: 100px auto;
+    width: 55%;
+    height: 60%;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.main-calculator {
+    margin: 20px auto;
+    width: fit-content;
+    padding: 20px;
+}
+
+.h1-text{
+    font-family: sans-serif;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 200;
+    outline-color: rgb(90, 185, 180);
+}
+
+.options1 {
+    width: 45px;
+    height: 34px;
+    padding: 0 5px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #bfbfbf;
+}
+
+.icons {
+    vertical-align: middle;
+    stroke-width: 1px;
+    cursor: pointer;
+}
+
+.course {
+   margin-top: 4px;
+}
+
+.btn {
+    margin: -20px 0 10px 20px;
+    display: flex;
+}
+
+#add-btn {
+    height: 34px;
+    border: none;
+    padding: 8px;
+    background-color: rgb(30, 166, 159);
+    color: whitesmoke;
+}
+
+#add-btn:hover{
+    background-color: rgb(13, 108, 104);
+}
+
+#calc:hover{
+    background-color: rgb(13, 108, 104);
+}
+
+#calc {
+    height: 34px;
+    margin-left: 4px;
+    background-color: rgb(30, 166, 159);
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+.cgpa-text {
+    margin-left: 230px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 580px)  {
+    
+    .container {
+        margin: 60px auto;
+        width: 90%;
+        height: 50%;
+    }
+
+    .main-calculator {
+        margin: 10px 0 10px -2px;
+        width: fit-content;
+        padding: 20px;
+    }
+
+    input {
+        height: 25px;
+        width: 85px;
+        padding: 0 10px;
+        font-size: 14px;
+        font-weight: 150;
+    }
+
+    .options1 {
+        width: 30px;
+        height: 29px;
+        padding: 0;
+    }
+
+    .btn {
+        margin: -20px 0 10px 5%;
+        width: 87%;
+    }
+
+    #add-btn {
+        padding: 3px;
+       
+    }
+
+    #calc {
+        margin-left: 6px;
+    }
+
+    .cgpa-text {
+        font-size: 10px;
+        margin-left: 15px;
+   }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 581px) {
+
+    .container {
+        margin: 60px auto;
+        width: 90%;
+        height: 50%;
+    }
+
+    input {
+        height: 30px;
+        width: 240px;
+        padding: 0 13px;
+        font-size: 17px;
+        font-weight: 190;
+    }
+
+    .options1 {
+        width: 40px;
+        height: 34px;
+        padding: 1px;
+    }
+
+    .btn {
+        margin: -20px 0 10px 7%;
+        width: 87%;
+    }
+
+    .cgpa-text {
+        font-size: 15px;
+    }
+}

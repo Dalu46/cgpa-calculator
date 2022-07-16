@@ -82,7 +82,7 @@ function calculate() {
         result += (grade[optionValue] * creditLoadValue);
     }
     let cgpa = result/totalCredit;
-    cgpaText.innerHTML = `Your CGPA is: ${cgpa.toFixed(2)}`
+    cgpaText.innerHTML = `CGPA: ${cgpa.toFixed(2)}`
 }
 
 // calculate CGPA
